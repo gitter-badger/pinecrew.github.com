@@ -1,1 +1,7 @@
-Hello world
+---
+layout: main
+title: Home
+---
+# Привет, мир!
+
+Наша первая попытка сделать что-то с помощью Jekyll)
