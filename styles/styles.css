@@ -1,10 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic&subset=latin,cyrillic);
 
 body {
   padding:50px;
-  font-family:'Poiret One', Arial, sans-serif;
+  font-family:'PT Sans', Arial, sans-serif;
   color:#444;
-  font-weight:300;
 }
 
 h1, h2, h3, h4, h5, h6 {
