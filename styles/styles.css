@@ -2,8 +2,8 @@
 
 body {
   padding:50px;
-  font:14px/1.5 'Poiret One', Arial, sans-serif;
-  color:#777;
+  font-family:'Poiret One', Arial, sans-serif;
+  color:#444;
   font-weight:300;
 }
 
@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:xx-large;
 }
 
 h2 {
@@ -39,7 +39,7 @@ a {
 }
 
 a small {
-  font-size:11px;
+  font-size:small;
   color:#777;
   margin-top:-0.6em;
   display:block;
@@ -60,7 +60,7 @@ blockquote {
 code, pre {
   font-family:Monaco, Liberation Mono, Ubuntu Mono, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color:#333;
-  font-size:12px;
+  font-size:small;
 }
 
 pre {
@@ -128,7 +128,7 @@ header li {
 
 header ul a {
   line-height:1;
-  font-size:11px;
+  font-size:small;
   color:#999;
   display:block;
   text-align:center;
@@ -152,13 +152,12 @@ header ul li + li + li {
 }
 
 header ul a strong {
-  font-size:14px;
   display:block;
   color:#222;
 }
 
 small {
-  font-size:11px;
+  font-size: small;
 }
 
 hr {
