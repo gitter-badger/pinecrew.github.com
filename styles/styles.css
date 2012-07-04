@@ -166,6 +166,10 @@ hr {
   margin:0 0 20px;
 }
 
+.pine {
+    color: #666;
+}
+
 
 @media print, screen and (max-width: 960px) {
   
