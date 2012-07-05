@@ -89,23 +89,13 @@ img {
 }
 
 header, footer {
-    margin: 5em auto;
+    margin: 2em auto;
 }
 
 header ul {
+    float: right;
     padding: 0;
     width: 270px;
-    height: 40px;
-    border: 1px solid #d2d2d2;
-    border-radius: 5px;
-    background: #eee;
-    background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-    background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-    background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-    background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-    background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-    box-shadow: inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
     list-style: none;
 }
 
@@ -119,7 +109,6 @@ header li {
 header ul a {
     display: block;
     padding-top: 6px;
-    height: 40px;
     color: #999;
     text-align: center;
     line-height: 1;
@@ -147,6 +136,7 @@ header ul a strong {
 }
 
 section {
+    padding: 2em 0;
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
 }

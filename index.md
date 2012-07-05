@@ -3,8 +3,9 @@ layout: main
 title: Главная страница pinecrew на github
 name: crew
 ---
+[Профиль на github](https://github.com/pinecrew)
 
-#Теперь мы nen
+#И снова переезд
 
 Всё-таки проще использовать систему контроля
 версий, чем писать интерфейс к базе данных.
