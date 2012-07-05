@@ -90,10 +90,10 @@ img {
 
 header, footer {
     margin: 2em auto;
+    overflow: hidden;
 }
 
 header ul {
-    float: right;
     padding: 0;
     width: 270px;
     list-style: none;
@@ -107,6 +107,7 @@ header li {
 }
 
 header ul a {
+    float: left;
     display: block;
     padding-top: 6px;
     color: #999;
