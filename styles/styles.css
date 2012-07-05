@@ -146,6 +146,11 @@ header ul a strong {
     color: #222;
 }
 
+section {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+}
+
 small {
     font-size: small;
 }
@@ -182,8 +187,6 @@ header {
 section {
     margin: 0 0 20px;
     padding: 20px 0;
-    border: 1px solid #e5e5e5;
-    border-width: 1px 0;
 }
     
 header a small {
