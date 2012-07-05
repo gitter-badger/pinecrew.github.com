@@ -89,13 +89,12 @@ img {
 }
 
 header, footer {
-    margin: 2em auto;
     overflow: hidden;
+    margin: 2em auto;
 }
 
 header ul {
     padding: 0;
-    width: 270px;
     list-style: none;
 }
 
@@ -109,6 +108,7 @@ header li {
 header ul a {
     float: left;
     display: block;
+    margin-right: 2em;
     padding-top: 6px;
     color: #999;
     text-align: center;
