@@ -4,10 +4,12 @@ body {
     padding: 50px;
     color: #444;
     font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #222;
+    font-weight: 300;
 }
 
 p, ul, ol, table, pre, dl {
@@ -18,15 +20,15 @@ h1, h2, h3 {
     line-height: 1.1;
 }
 
-header h1 {
-    font-size: xx-large;
-}
 
 a {
     display: inline-block;
-    color: #777;
+    color: #888;
     text-decoration: none;
-    transition: background .7s; 
+    -webkit-transition: background .3s; 
+    -moz-transition: background .3s; 
+    -o-transition: background .3s; 
+    transition: background .3s; 
 }
 
 a:hover {
@@ -38,6 +40,20 @@ a small {
     font-size: small;
 }
 
+nav {
+    display: block;
+    font-size: small;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 2em;
+    text-align: center;
+}
+
+span.social {
+    text-align: right;    
+}
 .wrapper {
     margin: 0 auto;
     width: 860px;
@@ -93,27 +109,19 @@ header, footer {
     margin: 2em auto;
 }
 
-header ul {
-    padding: 0;
-    list-style: none;
-}
-
-header li {
-    float: left;
-    width: 89px;
-    height: 40px;
-    border-right: 1px solid #d2d2d2;
-}
-
-header ul a {
-    float: left;
-    display: block;
-    margin-right: 2em;
-    padding-top: 6px;
-    color: #999;
-    text-align: center;
-    line-height: 1;
+p.links {
     font-size: small;
+    text-align: center;
+}
+
+p.links a {
+    margin: 1em;
+}
+
+
+
+.active {
+    border-bottom: 1px solid #777;    
 }
 
 strong {
@@ -121,20 +129,6 @@ strong {
     font-weight: 700;
 }
 
-header ul li + li {
-    width: 88px;
-    border-left: 1px solid #fff;
-}
-
-header ul li + li + li {
-    width: 89px;
-    border-right: none;
-}
-
-header ul a strong {
-    display: block;
-    color: #222;
-}
 
 section {
     padding: 2em 0;

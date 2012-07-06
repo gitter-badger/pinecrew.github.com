@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="chrome=1">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="styles/styles.css">
         <link rel="stylesheet" href="styles/pygment_trac.css">
@@ -15,10 +14,14 @@
         <div class="wrapper">
         <header>
             <h1><span class="pine">pine</span>{{ page.name }}</h1>
-            <ul>
-                <a href="/">главная</a>
-                <a href="/stuff">хлам</a>
-            </ul>
+            <nav>
+                <a href="/" {% if page.name == "crew" %}class="active"{% endif %}>главная</a>
+                <a href="/stuff" {% if page.name == "stuff" %}class="active"{% endif %}>хлам</a>
+                <a href="https://github.com/pinecrew">/github</a>
+                <a href="https://bitbucket.org/pinecrew">/bitbucket</a>
+                <a href="http://vk.com/pinepage">/vk</a>
+                <a href="http://topl.us/PineCrew">/g+</a>
+            </nav>
         </header>
         <section>
             {{ content }}

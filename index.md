@@ -3,7 +3,6 @@ layout: main
 title: Главная страница pinecrew на github
 name: crew
 ---
-[Профиль на github](https://github.com/pinecrew)
 
 #И снова переезд
 
