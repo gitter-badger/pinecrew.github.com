@@ -1,2 +1,4 @@
 auto: true
+safe: true
 server: true
+permalink: /:title

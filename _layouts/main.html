@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="styles/styles.css">
-        <link rel="stylesheet" href="styles/pygment_trac.css">
+        <link rel="stylesheet" href="/styles/styles.css">
+        <link rel="stylesheet" href="/styles/pygment_trac.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,8 +15,9 @@
         <header>
             <h1><span class="pine">pine</span>{{ page.name }}</h1>
             <nav>
-                <a href="/" {% if page.name == "crew" %}class="active"{% endif %}>главная</a>
-                <a href="/stuff" {% if page.name == "stuff" %}class="active"{% endif %}>хлам</a>
+                <a href="/" {% if page.name == "crew" %} class="active"{% endif %}>главная</a>
+                <a href="/stuff.html" {% if page.name == "stuff" %} class="active" {% endif %} >хлам</a>
+                <a href="/books.html" {% if page.name == "books" %} class="active" {% endif %} >книги</a>
                 <a href="https://github.com/pinecrew">/github</a>
                 <a href="https://bitbucket.org/pinecrew">/bitbucket</a>
                 <a href="http://vk.com/pinepage">/vk</a>
@@ -30,6 +31,6 @@
             <p><small>Создано при помощи GitHub Pages</small></p>
         </footer>
         </div>
-        <script src="js/scale.fix.js"></script>
+        <script src="/js/scale.fix.js"></script>
     </body>
 </html>

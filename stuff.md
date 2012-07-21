@@ -9,3 +9,6 @@ name: stuff
 
 ##[wrench](https://bitbucket.org/FreeCX/wrench)
 Кроссплатформенный OpenGL-движок
+
+###[moleculus](https://bitbucket.org/pinecrew/moleculus)
+Moleculus -- это попытка смоделировать поведение группы массивных объектов с учётом взаимодействия между ними. На данный момент полностью перенесена на движок wrench.
