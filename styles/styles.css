@@ -24,7 +24,6 @@ h1, h2, h3 {
 a {
     display: inline-block;
     color: #888;
-    border-bottom: 1px dotted #888;
     text-decoration: none;
     -webkit-transition: background .3s; 
     -moz-transition: background .3s; 
